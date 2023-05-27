@@ -1,0 +1,113 @@
+body {
+  background-color: maroon;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.navbar {
+  background-color: yellow;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand span { 
+  font-family: 'Lora', serif;
+  color: green;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-decoration: none;
+  width: 100%;
+  position: relative;
+}
+
+.navbar-nav {
+  margin: auto;
+  margin-right: 0;
+}
+.jumbotron img{
+  width: -webkit-fill-available;
+  padding: auto;
+}
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+.container {
+  margin-top: 63.2px;
+  margin-bottom: 63.2px
+}
+.navbar-nav .nav-item {
+  margin: 40px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: white;
+  background-color: red;
+  font-size: 1.2em;
+  border: ridge;
+  text-align: center;
+}
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 15px;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+  background: url('https://www.wellplated.com/wp-content/uploads/2020/06/Best-Grilled-Chicken-Tenders.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#specials-tile {
+  background: url('https://www.simplyrecipes.com/thmb/TwFcaHtHLSdCtK1ObveCkwpxxsc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2014__09__Classic-Baked-Chicken-LEAD-1-47dc5e85c6e24eb4b54cabb4023a7698.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.panel-footer {
+  background-color: black;
+  border-radius: 0;
+  border: 0;
+}
+section {
+  color: #fff;
+}
+.note {
+  color: greenyellow;
+}
+.copyright {
+  color: red;
+}
+
+
+
+
+
+
+
+
+  
+
+
+
