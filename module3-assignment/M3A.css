@@ -32,6 +32,9 @@ h1 {
     margin-bottom: 5px;
     color: crimson;
 }
+a {
+    text-decoration: none;
+}
 .para {
     font-family: sans-serif;
 }
